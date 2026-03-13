@@ -8,9 +8,9 @@ appR.get("/", (req, res) => {
 });
 
 appR.get("/test", (req, res) => {
-  res.json({status: "OK"});
+  res.json({ status: "OK" });
 });
 
 appR.listen(PORT, () => {
-  console.log("Server running on port", PORT);
+  console.log(`Server running on port ${PORT}`);
 });
